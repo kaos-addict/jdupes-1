@@ -13,7 +13,8 @@ Utility
 #### Depends on **DEPNAME**, **NEXTDEPNAME** available via *Kcp*, so you should
 
 Install with:
-    * kcp -i jdupes
+    
+kcp -i jdupes
 
 #### From developer(s):
 
