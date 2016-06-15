@@ -15,6 +15,5 @@ build() {
 
 package() {
  cd "${pkgname}-${pkgver}"
- install -d "${pkgdir}"/usr/{share/man/man1,bin}
  make DESTDIR="${pkgdir}/" install
 }
